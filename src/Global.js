@@ -21,6 +21,6 @@ const Global={
     }
 }
 
-console.log('Global',Global);
+
 
 export default Global;

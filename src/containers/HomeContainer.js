@@ -1,4 +1,5 @@
 import React from 'react';
+import Api from '../utils/Api'
 
 class HomeContainer extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class HomeContainer extends React.Component {
         style={{
           fontFamily: 'Montserrat'
         }}>
+          <Api/>
         <div
           className='row'>
           <div
@@ -22,6 +24,7 @@ class HomeContainer extends React.Component {
           </div>
         </div>
       </div>
+      
     );
   }
 }
